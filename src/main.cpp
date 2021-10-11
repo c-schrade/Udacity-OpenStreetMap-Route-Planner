@@ -68,7 +68,7 @@ int main(int argc, const char **argv)
     cin >> start_y;
     cout << "The x-coordinate of the goal is:\n";
     cin >> end_x;
-    cout << "The y-coordinate of the start is:\n";
+    cout << "The y-coordinate of the goal is:\n";
     cin >> end_y
 
     // Build Model.
