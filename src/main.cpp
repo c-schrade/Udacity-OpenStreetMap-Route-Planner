@@ -62,14 +62,14 @@ int main(int argc, const char **argv)
     float end_x;
     float end_y;
 
-    cout << "The x-coordinate of the start is:\n";
-    cin >> start_x;
-    cout << "The y-coordinate of the start is:\n";
-    cin >> start_y;
-    cout << "The x-coordinate of the goal is:\n";
-    cin >> end_x;
-    cout << "The y-coordinate of the goal is:\n";
-    cin >> end_y
+    std::cout << "The x-coordinate of the start is:\n";
+    std::cin >> start_x;
+    std::cout << "The y-coordinate of the start is:\n";
+    std::cin >> start_y;
+    std::cout << "The x-coordinate of the goal is:\n";
+    std::cin >> end_x;
+    std::cout << "The y-coordinate of the goal is:\n";
+    std::cin >> end_y;
 
     // Build Model.
     RouteModel model{osm_data};
