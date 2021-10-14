@@ -1,6 +1,6 @@
 # Udacity-OpenStreetMap-Route-Planning-Project
 
-This repo contains the starter code for the Route Planning project.
+This repo contains the code for the Route Planning project. My own changes were made in the main.cpp[src/main.cpp] and route_planner.cpp[src/route_planner.cpp] files.
 
 <img src="map.png" width="600" height="450" />
 
