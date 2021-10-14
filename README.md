@@ -1,4 +1,4 @@
-# Route Planning Project
+# Udacity-OpenStreetMap-Route-Planning-Project
 
 This repo contains the starter code for the Route Planning project.
 
