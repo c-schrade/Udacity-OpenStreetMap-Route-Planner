@@ -24,8 +24,8 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
     neighbor->parent = current_node;
     neighbor->h_value = CalculateHValue(neighbor);
     neighbor->g_value = current_node->g_value+current_node->distance(*neighbor);
-    open_list.push_back(neighbor);
     neighbor->visited = true;
+    open_list.push_back(neighbor);
   }
 
 }
