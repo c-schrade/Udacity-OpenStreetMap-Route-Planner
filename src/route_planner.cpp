@@ -32,7 +32,7 @@ void RoutePlanner::AddNeighbors(RouteModel::Node *current_node) {
 
 
 bool RoutePlanner::Compare(RouteModel::Node *node_1, RouteModel::Node *node_2) {
-    return (node_1->g_value+node_1->h_value <= node_2->g_value+node_2->h_value);
+    return node_1->g_value+node_1->h_value <= node_2->g_value+node_2->h_value;
   }
 
 RouteModel::Node *RoutePlanner::NextNode() {
